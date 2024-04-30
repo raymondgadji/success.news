@@ -1,0 +1,148 @@
+body {
+  font-family: poppins;
+  color:#343434 ;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+h1
+*/
+
+h1{
+    text-align: center;
+    color: #fe0002;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+h1:hover{
+    color: chartreuse;
+}
+
+/*
+Nav bar
+*/
+
+nav {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5%;
+}
+
+#logo {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logo img {
+  width: 300px;
+  height: 250px;
+}
+
+#logo .avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: #fe0002 solid 3px;
+  transition: all 0.5s ease-in-out;
+}
+#logo .avatar:hover {
+  border: chartreuse solid 3px;
+}
+
+.testimony .avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: #0bcf36 solid 3px;
+  transition: all 0.5s ease-in-out;
+}
+.testimony .avatar:hover {
+  border: #f47c00 solid 3px;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav #avatar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.link {
+  list-style: none;
+  color: #343434;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+
+nav .link:hover {
+  background-color: #fe0002;
+  color: white;
+  width: 30%;
+  height: auto;
+  padding: 18px;
+  border-radius: 8px;
+}
+
+ul {
+  font-size: 3vh;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 1.5%;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: all 0.5s ease-in-out;
+  color: white;
+}
+
+.button.primary {
+  background: #fe0002;
+  border: 2px solid #fe0002;
+  width: 110px;
+}
+.button.primary:hover {
+  background: chartreuse;
+  border: 2px solid chartreuse;
+}
+
+/*
+Principal
+*/
+
+/*
+h2
+*/
+
+/*
+Main
+*/
+
+/*
+Team
+*/
+
+/*
+footer
+*/
+
+footer {
+  background: black;
+  color: white;
+}
