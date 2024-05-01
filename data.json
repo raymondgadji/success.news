@@ -12,13 +12,13 @@
       },
       "articles": [
         {
-          "titre": "Conseils d'experts : comment démarrer et faire prospérer votre entreprise",
+          "titre": "Conseils d'experts : Comment démarrer et faire prospérer votre entreprise",
           "date": "20 Avril 2024",
           "theme": "Démarrage d'entreprise",
           "image":"images/startUp1.webp"
         },
         {
-          "titre": "Entretien avec un fondateur : le chemin vers le succès dans le monde de la technologie",
+          "titre": "Entretien avec un fondateur : Le chemin vers le succès dans le monde de la technologie",
           "date": "15 Avril 2024",
           "theme": "Technologie",
           "image":"images/success.jpg"
@@ -30,7 +30,7 @@
           "image":"images/startUp2.webp"
         },
         {
-          "titre": "Analyse : les tendances entrepreneuriales à surveiller en 2024",
+          "titre": "Analyse : Les tendances entrepreneuriales à surveiller en 2024",
           "date": "28 Mars 2024",
           "theme": "Tendances",
           "image":"images/success-magazine-logo.webp"

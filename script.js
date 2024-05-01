@@ -34,7 +34,7 @@ function afficherTitreJournal() {
     afficherTitreJournal();
 
 
-function afficherLesThemes(){
+    function afficherLesThemes(){
       let themes = data.journal.themes;
       
     themes.forEach(element => {
@@ -53,46 +53,48 @@ function afficherLesThemes(){
     }
     afficherLesThemes()
 
-function articlePrincipal(){
 
-    let article_principal = data.journal.articlePrincipal;
-    console.log(article_principal);
+    function articlePrincipal(){
 
-    let title = data.journal.articlePrincipal.titre;
-    console.log(title);
-
-    let description = data.journal.articlePrincipal.description;
-    console.log(description);
-
-    let date = data.journal.articlePrincipal.date;
-    console.log(date);
-
-    let theme = data.journal.articlePrincipal.theme
-    console.log(theme);
-
-    let image = data.journal.articlePrincipal.image
-    console.log(image);
-
-    let article_principal_Id = document.getElementById("principal");
-    console.log(article_principal_Id);
-
-    let articlePrincipalAll = `<div id="principal">
-    <img id="img_principal" src="${image}" alt="" />
-    <div class="infos">
-      <h2>${title}</h2>
-      <h3>${theme} - ${date}</h3>
-      <p>
-        "${description}"
-      </p>
-      <button>
-        <a href="#" target="_blank">Lire l'article</a>
-      </button>
-    </div>
-  </div>`
+      let article_principal = data.journal.articlePrincipal;
+      console.log(article_principal);
   
-  article_principal_Id.insertAdjacentHTML("beforeend", articlePrincipalAll)
-    }
-    articlePrincipal();
+      let title = data.journal.articlePrincipal.titre;
+      console.log(title);
+  
+      let description = data.journal.articlePrincipal.description;
+      console.log(description);
+  
+      let date = data.journal.articlePrincipal.date;
+      console.log(date);
+  
+      let theme = data.journal.articlePrincipal.theme
+      console.log(theme);
+  
+      let image = data.journal.articlePrincipal.image
+      console.log(image);
+  
+      let article_principal_Id = document.getElementById("principal");
+      console.log(article_principal_Id);
+  
+      let articlePrincipalAll = `<div id="principal">
+      <img id="img_principal" src="${image}" alt="" />
+      <div class="principal_infos">
+        <h2>${title}</h2>
+        <h3>${theme} - ${date}</h3>
+        <p>
+          "${description}"
+        </p>
+        <button class="button primary">
+          <a href="#" target="_blank">Lire l'article</a>
+        </button>
+      </div>
+    </div>`
+    
+    article_principal_Id.insertAdjacentHTML("beforeend", articlePrincipalAll)
+      }
+      articlePrincipal();
+
 
 
 function afficherLesArticles() {
@@ -114,16 +116,18 @@ function afficherLesArticles() {
           let articleImage = element.image;
           console.log(articleImage);
       
-          let liste =`<section class="main">
+          let liste =`<section id="main">
           <article class="card">
-            <img src="" alt="" />
+          <img class="img_card" src="${articleImage}" alt= " "/>
             <div class="infos">
               <h2>${articleTitre}</h2>
               <h3>${articleTheme} - ${articleDate}</h3>
-              <img src="${articleImage}" alt= " "/>
-              <button>
+              
+              <button class="button primary">
                 <a href="#" target="_blank">Lire l'article</a>
               </button>
+              </div>
+            </article>
         </section>`;
       
         let articleClass = document.getElementById("main");
@@ -140,6 +144,12 @@ function afficherAuteurs(){
     
       let auteurs = data.journal.auteurs;
       console.log(auteurs);
+
+      let phrase_team = "DECOUVREZ NOTRE EQUIPE";
+      console.log(phrase_team);
+
+      let h3Team = document.getElementById('h3_team');
+      h3Team.insertAdjacentHTML("beforeend", phrase_team)
     
       auteurs.forEach(element => {
     
@@ -163,7 +173,7 @@ function afficherAuteurs(){
           <h3>${prenom}</h3>
           <p>${typeExperience}</p>
           <p>${presentation}</p>
-        </article>`
+        </article>`;
       
         auteursAll.insertAdjacentHTML("beforeend", afficherHTMLAuteurs);
     
