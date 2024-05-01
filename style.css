@@ -37,7 +37,6 @@ Nav bar
 
 nav {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-  margin-bottom: 5%;
 }
 
 #logo {
@@ -164,8 +163,8 @@ Team
 
 #team{
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  justify-content: center;
+  gap: 50px;
   margin-bottom: 50px;
 }
 
@@ -182,12 +181,7 @@ Team
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.7);
 }
 
-#team .div_team{
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  background-color: chartreuse;
-}
+
 
 /*
 footer
