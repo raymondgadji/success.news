@@ -126,9 +126,18 @@ ul {
 Principal
 */
 
+#img_principal{
+  width: 100%;
+  height: 700px;
+}
+
 /*
 h2
 */
+
+#h2_title{
+  text-align: center;
+}
 
 /*
 Main
@@ -145,4 +154,18 @@ footer
 footer {
   background: black;
   color: white;
+}
+
+#h3_footer{
+  text-align: center;
+}
+
+#h2_footer{
+  text-align: center;
+}
+
+#footer_section{
+  display: flex;
+  gap: 5%;
+  justify-content: space-around;
 }

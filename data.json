@@ -8,38 +8,38 @@
         "description": "Découvrez les parcours, les défis et les stratégies des entrepreneurs à succès.",
         "date": "25 Avril 2024",
         "theme": "Succès entrepreneurial",
-        "image":""
+        "image":"images/financementstartup.jpg"
       },
       "articles": [
         {
           "titre": "Conseils d'experts : comment démarrer et faire prospérer votre entreprise",
           "date": "20 Avril 2024",
           "theme": "Démarrage d'entreprise",
-          "image":""
+          "image":"images/startUp1.webp"
         },
         {
           "titre": "Entretien avec un fondateur : le chemin vers le succès dans le monde de la technologie",
           "date": "15 Avril 2024",
           "theme": "Technologie",
-          "image":""
+          "image":"images/success.jpg"
         },
         {
           "titre": "Top 10 des livres incontournables pour les entrepreneurs ambitieux",
           "date": "5 Avril 2024",
           "theme": "Lecture recommandée",
-          "image":""
+          "image":"images/startUp2.webp"
         },
         {
           "titre": "Analyse : les tendances entrepreneuriales à surveiller en 2024",
           "date": "28 Mars 2024",
           "theme": "Tendances",
-          "image":""
+          "image":"images/success-magazine-logo.webp"
         },
         {
           "titre": "Les dernières nouvelles sur les startups les plus prometteuses",
           "date": "20 Mars 2024",
           "theme": "Startups",
-          "image":""
+          "image":"images/suc.png"
         }
       ],
       "themes": [
@@ -68,17 +68,20 @@
         {
           "prenom": "Sophie",
           "typeExperience": "Entrepreneure à succès",
-          "presentation": "En tant qu'entrepreneure à succès, je partage mes conseils et mes expériences pour inspirer d'autres entrepreneurs à atteindre leurs objectifs."
+          "presentation": "En tant qu'entrepreneure à succès, je partage mes conseils et mes expériences pour inspirer d'autres entrepreneurs à atteindre leurs objectifs.",
+          "image":"images/financementstartup.jpg"
         },
         {
           "prenom": "Antoine",
           "typeExperience": "Expert en technologie et innovation",
-          "presentation": "Avec une expertise dans la technologie et l'innovation, je vous offre des analyses approfondies sur les tendances entrepreneuriales et les opportunités de croissance."
+          "presentation": "Avec une expertise dans la technologie et l'innovation, je vous offre des analyses approfondies sur les tendances entrepreneuriales et les opportunités de croissance.",
+          "image":"images/financementstartup.jpg"
         },
         {
           "prenom": "Marie",
           "typeExperience": "Rédactrice en chef spécialisée en entrepreneuriat",
-          "presentation": "En tant que rédactrice en chef, je suis passionnée par l'entrepreneuriat et je vous apporte les dernières nouvelles, les conseils pratiques et les histoires inspirantes pour stimuler votre succès entrepreneurial."
+          "presentation": "En tant que rédactrice en chef, je suis passionnée par l'entrepreneuriat et je vous apporte les dernières nouvelles, les conseils pratiques et les histoires inspirantes pour stimuler votre succès entrepreneurial.",
+          "image":"images/financementstartup.jpg"
         }
       ]
     }
