@@ -19,7 +19,7 @@ h1{
     
 }
 h1:hover{
-    color: chartreuse;
+    color: #343434;
 }
 
 /*
@@ -60,7 +60,7 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 #logo .avatar:hover {
-  border: chartreuse solid 3px;
+  border: #343434 solid 3px;
 }
 
 nav #avatar {
@@ -109,8 +109,8 @@ ul {
   width: 110px;
 }
 .button.primary:hover {
-  background: chartreuse;
-  border: 2px solid chartreuse;
+  background: #343434;
+  border: 2px solid #343434;
 }
 
 /*
