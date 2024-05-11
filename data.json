@@ -16,30 +16,40 @@
           "titre": "Conseils d'experts : Comment démarrer et faire prospérer votre entreprise",
           "date": "20 Avril 2024",
           "theme": "Démarrage d'entreprise",
+          "id":
+          "demarrageDentreprise",
           "image":"images/startUp1.webp"
         },
         {
           "titre": "Entretien avec un fondateur : Le chemin vers le succès dans le monde de la technologie",
           "date": "15 Avril 2024",
           "theme": "Technologie",
+          "id":
+          "technologie",
           "image":"images/success.jpg"
         },
         {
           "titre": "Top 10 des livres incontournables pour les entrepreneurs ambitieux",
           "date": "5 Avril 2024",
           "theme": "Lecture recommandée",
+          "id":
+          "lectureRecommandee",
           "image":"images/startUp2.webp"
         },
         {
           "titre": "Analyse : Les tendances entrepreneuriales à surveiller en 2024",
           "date": "28 Mars 2024",
           "theme": "Tendances",
+          "id":
+          "tendances",
           "image":"images/success-magazine-logo.webp"
         },
         {
           "titre": "Les dernières nouvelles sur les startups les plus prometteuses",
           "date": "20 Mars 2024",
           "theme": "Startups",
+          "id":
+          "startups",
           "image":"images/suc.png"
         }
       ],

@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Entreprenarial Success News</title>
+
     <link rel="stylesheet" href="style.css" />
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
   </head>
   <body>
     <!-- Début HTML -->
@@ -76,20 +82,30 @@
           
         </div>
         
+        <section data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-sine" class="footer_map">
+          <p>Entreprenarial Success News <br> 15 Bd Diderot, 75012 Paris </p>
+          <div id="map"></div>
+        </section>
 
       </div>
+
+
+      
 
       <p id="h3_footer">© 2024 Javascript Raymond</p>
     </footer>
     <!-- Fin HTML -->
     <script src="script.js"></script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
     </script>
+    
     <script>
       AOS.init();
     </script>
+
 
   </body>
 </html>
