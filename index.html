@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Success News</title>
+    <title>Entreprenarial Success News</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- Début HTML -->
@@ -12,9 +14,9 @@
     <nav>
       <div id="logo">
         <a href="#">
-          <img
-            src="images\suc.png"
-            alt="Logo StartUp magasine"
+          <img id="logo_img"
+          src="images/forbes.webp"
+          alt="Logo StartUp magasine"
           />
         </a>
 
@@ -32,7 +34,7 @@
 
       <div class="categories">
         <ul id="themes">
-          
+
         </ul>
       </div>
     </nav>
@@ -48,22 +50,46 @@
       
     </section>
 
-    <section >
+    <section data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">
       <h3 id="h3_team"></h3>
       <div id="team"></div>
 
     </section>
 
-    <footer>
+    <footer id="footer" data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">
       <h2 id="h2_footer"></h2>
 
       <section id="footer_section">
        
       </section>
 
-      <h3 id="h3_footer">© 2024 Javascript Raymond</h3>
+      
+
+      <div id="footer_socials">
+        <p id="connect">Restez connecté avec nous</p>
+        <div class="socio">
+          <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-beat fa-2xl"></i></a>
+          
+          <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-beat fa-2xl"></i></a>
+          
+          <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok fa-beat fa-2xl"></i></a>
+          
+        </div>
+        
+
+      </div>
+
+      <p id="h3_footer">© 2024 Javascript Raymond</p>
     </footer>
     <!-- Fin HTML -->
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+    </script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>

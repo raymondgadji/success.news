@@ -3,6 +3,7 @@
       "nomJournal": "Entrepreneurial Success News",
       "phraseAccroche": "Votre source d'inspiration et d'informations sur le succès entrepreneurial",
       "texteAppelAction": "Abonnez-vous pour recevoir notre newsletter et découvrir les clés du succès entrepreneurial !",
+      "imageLogo" : "images/forbes.webp",
       "articlePrincipal": {
         "titre": "Les histoires inspirantes des entrepreneurs qui ont réussi contre vents et marées",
         "description": "Découvrez les parcours, les défis et les stratégies des entrepreneurs à succès.",
@@ -69,19 +70,19 @@
           "prenom": "Sophie",
           "typeExperience": "Entrepreneure à succès",
           "presentation": "En tant qu'entrepreneure à succès, je partage mes conseils et mes expériences pour inspirer d'autres entrepreneurs à atteindre leurs objectifs.",
-          "image":"images/financementstartup.jpg"
+          "image":"images/sophie-marceau.jpeg"
         },
         {
           "prenom": "Antoine",
           "typeExperience": "Expert en technologie et innovation",
           "presentation": "Avec une expertise dans la technologie et l'innovation, je vous offre des analyses approfondies sur les tendances entrepreneuriales et les opportunités de croissance.",
-          "image":"images/financementstartup.jpg"
+          "image":"images/AntoineMango.webp"
         },
         {
           "prenom": "Marie",
           "typeExperience": "Rédactrice en chef spécialisée en entrepreneuriat",
           "presentation": "En tant que rédactrice en chef, je suis passionnée par l'entrepreneuriat et je vous apporte les dernières nouvelles, les conseils pratiques et les histoires inspirantes pour stimuler votre succès entrepreneurial.",
-          "image":"images/financementstartup.jpg"
+          "image":"images/ma.webp"
         }
       ]
     }
