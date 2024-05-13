@@ -11,46 +11,25 @@ function getData() {
        console.log('Données récupérées du fichier JSON :', data);
        /// ON ECRIT LE CODE ICI ! 
 
-             // Map that is in the footer
-
-      var map = L.map('map').setView([48.8457237, 2.3712741], 5);
-
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-      }).addTo(map);
       
-      L.marker([48.8457237, 2.3712741]).addTo(map)
-        .bindPopup('Bienvenu(e) à Entreprenarial Success News !')
-        .openPopup();
-
         // Exercice Javascript code
 
-      let articles = data.journal.articles;
+      let articles=data.journal.articles;
       console.log(articles);
 
-      articles = data.journal.articles[3];
+      articles=data.journal.articles[3];
       console.log(articles);
 
-      let auteurs = data.journal.auteurs;
+      let auteurs=data.journal.auteurs;
       console.log(auteurs);
-
-
-       /// FIN DU CODE
-     })
-     .catch((error) => console.error('Erreur lors de la lecture des données :', error));
- }
- 
- getData();
-
- ///ON écrit les fonctions ici
-
+      
   /// Première fonction qui affiche le titre du journal
 
   function afficherTitreJournal() {
-    let title= data.journal.nomJournal;
+    let title=data.journal.nomJournal;
     console.log(title);
 
-    let titleID = document.getElementById("title")
+    let titleID=document.getElementById("title")
     console.log(titleID);
 
     titleID.insertAdjacentHTML("beforeend", title);
@@ -230,7 +209,7 @@ article_principal_Id.insertAdjacentHTML("beforeend", articlePrincipalAll)
   
     });
   
-    }
+  }
     afficherAuteurs();
 
 
@@ -271,5 +250,26 @@ article_principal_Id.insertAdjacentHTML("beforeend", articlePrincipalAll)
       }
       afficherFooter();
 
+       /// FIN DU CODE
+     })
+     .catch((error) => console.error('Erreur lors de la lecture des données :', error));
+ }
+ 
+ getData();
+
+ ///ON écrit les fonctions ici
+
+       // Map that is in the footer
+
+       var map=L.map('map').setView([48.8457237, 2.3712741], 5);
+
+       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+         attribution: '© OpenStreetMap contributors'
+       }).addTo(map);
+       
+       L.marker([48.8457237, 2.3712741]).addTo(map)
+         .bindPopup('Bienvenu(e) à Entreprenarial Success News !')
+         .openPopup();
+ 
 
 
